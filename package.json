@@ -1,0 +1,31 @@
+{
+  "name": "task4",
+  "version": "1.0.0",
+  "description": "Intrasition task",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "keywords": [
+    "react",
+    "node",
+    "mern"
+  ],
+  "author": "Yakau Trafimovich <5243212@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "client": "0.0.1",
+    "config": "^3.3.6",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.3",
+    "react-app": "^1.1.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.5.1",
+    "nodemon": "^2.0.15"
+  }
+}
